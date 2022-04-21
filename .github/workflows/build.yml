@@ -21,7 +21,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         # uses: JamesIves/github-pages-deploy-action@master
-        uses: JamesIves/github-pages-deploy-action@v4.3.0
+        uses: JamesIves/github-pages-deploy-action@3.6.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE_BRANCH: master
